@@ -4,6 +4,7 @@ import Logo from "./Logo";
 import Button from "./Button";
 
 const Navbar = () => {
+  const navHeight = 1/9*100;
   return (
     <>
       <div className="w-full h-20 bg-FFFDF2 sticky top-0">
