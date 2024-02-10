@@ -3,7 +3,7 @@ import Image from 'next/image';
 import menuData from './kasumbasSpecial.json';
 import { useState } from 'react';
 import Footer from '../components/Footer';
-
+import "./menu.css";
 
 export default function Menu() {
   const [category, setCategory] = useState('');
